@@ -15,7 +15,7 @@ WebDriver driver;
 	@FindBy(css="ul > li:nth-of-type(3) > a[title='T-shirts']")
 	WebElement tShirt;
 	
-	@FindBy(css="img[title='Faded Short Sleeve T-shirts']")
+	@FindBy(css="img[title='Faded Short Sleeve T-shirt']")
 	WebElement fadedTshirt;
 	
 	@FindBy(css="p#add_to_cart > button > span")
