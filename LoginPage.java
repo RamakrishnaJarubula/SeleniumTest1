@@ -21,7 +21,7 @@ WebDriver driver;
 	@FindBy(css="p#add_to_cart > button > span")
 	WebElement addCart;
 	
-	@FindBy(css="div:nth-of-type(3).content_sortPagiBar")
+	@FindBy(css="div:nth-of-type(4).content_sortPagiBar")
 	WebElement page;
 	
 	
