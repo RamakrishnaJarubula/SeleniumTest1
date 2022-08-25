@@ -45,7 +45,7 @@ WebDriver driver;
 	
 	public void addCartClick()
 	{
-		driver.switchTo().frame(0);
+		driver.switchTo().frame(5);
 		addCart.click();
 	}
 }
