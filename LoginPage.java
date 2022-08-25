@@ -12,7 +12,7 @@ public class LoginPage {
 	
 WebDriver driver;
 	
-	@FindBy(css="ul > li:nth-of-type(3) > a[title='T-shirts']")
+	@FindBy(css="ul > li:nth-of-type(7) > a[title='T-shirts']")
 	WebElement tShirt;
 	
 	@FindBy(css="img[title='Faded Short Sleeve T-shirts']")
